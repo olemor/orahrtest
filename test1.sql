@@ -1,6 +1,6 @@
 SET SERVEROUTPUT ON
 
-+DECLARE
+DECLARE
   s VARCHAR2(20):= 'Not Found!';
 BEGIN
   SELECT o.country_name 
